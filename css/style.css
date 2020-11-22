@@ -1,0 +1,31 @@
+:root
+{
+    --primary-color: #c0c0c0;
+    --primary-color--dark: #808080;
+    --alarm-color: #f80000;
+}
+
+*,
+*::before,
+*::after
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body
+{
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+
+html
+{
+    font-size: 62.5%;
+}
+
+.game
+{
+    background-color: ;
+}
