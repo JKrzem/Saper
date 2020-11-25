@@ -29,6 +29,13 @@ export class Cell extends UI
         if(this.isMine)
         {
             this.element.classList.add('cell--is-mine');
+            return;
+        }
+
+        if(this.value)
+        {
+            this.element.textContent = this.value;
+            this.element.classList.add(`cell--info-${this.value}`);
         }
     }
 
