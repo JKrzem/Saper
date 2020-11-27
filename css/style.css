@@ -18,7 +18,10 @@
     --border-width: 0.3rem;
     --cells-in-row: 8;
 
-    --game-max-width: calc(var(--cell-size) * var(--cells-in-row) + calc(2 * var(--game-padding) + calc(2 * var(--border-width))));
+    --game-max-width: calc(
+        var(--cell-size) * var(--cells-in-row) + calc(2 * var(--game-padding)) +
+          calc(2 * var(--border-width))
+      );
 }
 
 @font-face
